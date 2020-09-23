@@ -13,23 +13,24 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  /* align-items: center;
-  justify-content: center; */
+  align-items: center;
+  justify-content: center;
   color: white;
 }
 
-/* .big-text {
+.big-text {
   font-size: 6rem;
-} */
+}
 
-/* h1 {
+h1 {
   font-size: 5rem;
+  margin-top: -2rem;
 }
 
 h3 {
   font-size: 2rem;
-  margin-top: -25rem;
-} */
+  margin-top: -10rem;
+}
 
 .countdown-container {
   display: flex;
