@@ -5,33 +5,50 @@
 }
 
 body {
-  font-family: cursive;
-  margin: 0;
+  /* background-color: black;
+  padding: 0; */
   background-image: url("./img/halloween.jpg");
   background-size: cover;
   background-position: center center;
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
   align-items: center;
-  justify-content: center;
+  /* justify-content: center; */
+  min-height: 100vh;
+  font-family: cursive;
+  margin: 0;
   color: white;
 }
 
 .big-text {
-  font-size: 6rem;
+  font-size: 10vmin;
+  line-height: 1;
+  margin: 0 10vmin;
 }
 
 h1 {
-  font-size: 5rem;
-  margin-top: -2rem;
+  /* font-size: 5rem; */
+  font-size: 6vmin;
+  letter-spacing: 1vmin;
+  margin-top: -1rem;
 }
 
 h3 {
-  font-size: 2rem;
-  margin-top: -10rem;
+  /* font-size: 2rem; */
+  font-size: 3vmin;
+  margin-top: 8rem;
+  /* letter-spacing: 1rem; */
 }
 
 .countdown-container {
+  margin-top: 2rem;
   display: flex;
+}
+
+.countdown-el {
+  text-align: center;
+}
+
+.countdown-el span {
+  font-size: 3vmin;
 }
